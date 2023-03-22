@@ -64,7 +64,7 @@ function moveSnake() {
 
 // Função para desenhar a comida
 function drawFood() {
-  ctx.fillStyle = '#f00';
+  ctx.fillStyle = '#FFFF00';
   ctx.fillRect(food.x * gridSize, food.y * gridSize, gridSize, gridSize);
 }
 
